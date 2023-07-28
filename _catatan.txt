@@ -1,0 +1,19 @@
+//tambahan dari local
+pm2 list : tampikan service 
+pm2 log 2 : tampikan log service 2
+pm2 log 2 | grep 'buffer' => tampikan log service 2 yg mengandung kata buffer
+
+pm2 stop 2 : hentikan stop service 2
+pm2 start 2 :aktifkan service ke-2
+
+npm start --port 9080 => aktifkan service port 9080
+git config --global credential.helper 'cache --timeout=3600'
+
+pm2 delete => hapus service
+start service:
+pm2 start app.js --name nama_service --watch -- --port xxxx
+
+merubah hak akses user pada nama_folder
+chown ubuntu:ubuntu nama_folder
+chmode -R 777 nama_folder
+

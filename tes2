@@ -1,0 +1,164 @@
+error: A hook (`userconfig`) failed to load!
+error: A hook (`userconfig`) failed to load!
+error: Failed to lift app: Error: Attempted to `require('/var/www/apih2hbank/config/bootstrap.js')`, but an error occurred:
+--
+/var/www/apih2hbank/config/bootstrap.js:12
+module.exports.bootstrap = async function (done) {
+                                 ^^^^^^^^
+
+SyntaxError: Unexpected token function
+    at createScript (vm.js:56:10)
+    at Object.runInThisContext (vm.js:97:10)
+    at Module._compile (module.js:542:28)
+    at Object.Module._extensions..js (module.js:579:10)
+    at Module.load (module.js:487:32)
+    at tryModuleLoad (module.js:446:12)
+    at Function.Module._load (module.js:438:3)
+    at Module.require (module.js:497:17)
+    at require (internal/module.js:20:19)
+    at /var/www/apih2hbank/node_modules/include-all/lib/help-include-all-sync.js:293:33
+    at Array.forEach (native)
+    at _recursivelyIncludeAll (/var/www/apih2hbank/node_modules/include-all/lib/help-include-all-sync.js:178:11)
+    at includeAll (/var/www/apih2hbank/node_modules/include-all/lib/help-include-all-sync.js:317:5)
+    at helpBuildDictionary (/var/www/apih2hbank/node_modules/include-all/lib/help-build-dictionary.js:46:13)
+    at Function.module.exports.aggregate (/var/www/apih2hbank/node_modules/include-all/index.js:101:10)
+    at loadOtherConfigFiles (/var/www/apih2hbank/node_modules/sails/lib/hooks/moduleloader/index.js:162:22)
+--
+    at /var/www/apih2hbank/node_modules/include-all/lib/help-include-all-sync.js:298:25
+    at Array.forEach (native)
+    at _recursivelyIncludeAll (/var/www/apih2hbank/node_modules/include-all/lib/help-include-all-sync.js:178:11)
+    at includeAll (/var/www/apih2hbank/node_modules/include-all/lib/help-include-all-sync.js:317:5)
+    at helpBuildDictionary (/var/www/apih2hbank/node_modules/include-all/lib/help-build-dictionary.js:46:13)
+    at Function.module.exports.aggregate (/var/www/apih2hbank/node_modules/include-all/index.js:101:10)
+    at loadOtherConfigFiles (/var/www/apih2hbank/node_modules/sails/lib/hooks/moduleloader/index.js:162:22)
+    at runTask (/var/www/apih2hbank/node_modules/sails/node_modules/async/dist/async.js:1621:13)
+    at /var/www/apih2hbank/node_modules/sails/node_modules/async/dist/async.js:1559:13
+    at processQueue (/var/www/apih2hbank/node_modules/sails/node_modules/async/dist/async.js:1569:13)
+    at Object.auto (/var/www/apih2hbank/node_modules/sails/node_modules/async/dist/async.js:1555:5)
+    at Hook.loadUserConfig (/var/www/apih2hbank/node_modules/sails/lib/hooks/moduleloader/index.js:160:13)
+    at Hook.wrapper [as loadUserConfig] (/var/www/apih2hbank/node_modules/@sailshq/lodash/lib/index.js:3275:19)
+    at Hook.loadModules (/var/www/apih2hbank/node_modules/sails/lib/hooks/userconfig/index.js:45:21)
+    at Hook.wrapper [as loadModules] (/var/www/apih2hbank/node_modules/@sailshq/lodash/lib/index.js:3275:19)
+    at modules (/var/www/apih2hbank/node_modules/sails/lib/hooks/index.js:86:25)
+error: Failed to lift app: Error: Attempted to `require('/var/www/apih2hbank/config/bootstrap.js')`, but an error occurred:
+--
+/var/www/apih2hbank/config/bootstrap.js:12
+module.exports.bootstrap = async function (done) {
+                                 ^^^^^^^^
+
+SyntaxError: Unexpected token function
+    at createScript (vm.js:56:10)
+    at Object.runInThisContext (vm.js:97:10)
+    at Module._compile (module.js:542:28)
+    at Object.Module._extensions..js (module.js:579:10)
+    at Module.load (module.js:487:32)
+    at tryModuleLoad (module.js:446:12)
+    at Function.Module._load (module.js:438:3)
+    at Module.require (module.js:497:17)
+    at require (internal/module.js:20:19)
+    at /var/www/apih2hbank/node_modules/include-all/lib/help-include-all-sync.js:293:33
+    at Array.forEach (native)
+    at _recursivelyIncludeAll (/var/www/apih2hbank/node_modules/include-all/lib/help-include-all-sync.js:178:11)
+    at includeAll (/var/www/apih2hbank/node_modules/include-all/lib/help-include-all-sync.js:317:5)
+    at helpBuildDictionary (/var/www/apih2hbank/node_modules/include-all/lib/help-build-dictionary.js:46:13)
+    at Function.module.exports.aggregate (/var/www/apih2hbank/node_modules/include-all/index.js:101:10)
+    at loadOtherConfigFiles (/var/www/apih2hbank/node_modules/sails/lib/hooks/moduleloader/index.js:162:22)
+--
+    at /var/www/apih2hbank/node_modules/include-all/lib/help-include-all-sync.js:298:25
+    at Array.forEach (native)
+    at _recursivelyIncludeAll (/var/www/apih2hbank/node_modules/include-all/lib/help-include-all-sync.js:178:11)
+    at includeAll (/var/www/apih2hbank/node_modules/include-all/lib/help-include-all-sync.js:317:5)
+    at helpBuildDictionary (/var/www/apih2hbank/node_modules/include-all/lib/help-build-dictionary.js:46:13)
+    at Function.module.exports.aggregate (/var/www/apih2hbank/node_modules/include-all/index.js:101:10)
+    at loadOtherConfigFiles (/var/www/apih2hbank/node_modules/sails/lib/hooks/moduleloader/index.js:162:22)
+    at runTask (/var/www/apih2hbank/node_modules/sails/node_modules/async/dist/async.js:1621:13)
+    at /var/www/apih2hbank/node_modules/sails/node_modules/async/dist/async.js:1559:13
+    at processQueue (/var/www/apih2hbank/node_modules/sails/node_modules/async/dist/async.js:1569:13)
+    at Object.auto (/var/www/apih2hbank/node_modules/sails/node_modules/async/dist/async.js:1555:5)
+    at Hook.loadUserConfig (/var/www/apih2hbank/node_modules/sails/lib/hooks/moduleloader/index.js:160:13)
+    at Hook.wrapper [as loadUserConfig] (/var/www/apih2hbank/node_modules/@sailshq/lodash/lib/index.js:3275:19)
+    at Hook.loadModules (/var/www/apih2hbank/node_modules/sails/lib/hooks/userconfig/index.js:45:21)
+    at Hook.wrapper [as loadModules] (/var/www/apih2hbank/node_modules/@sailshq/lodash/lib/index.js:3275:19)
+    at modules (/var/www/apih2hbank/node_modules/sails/lib/hooks/index.js:86:25)
+error: A hook (`userconfig`) failed to load!
+error: Failed to lift app: Error: Attempted to `require('/var/www/apih2hbank/config/bootstrap.js')`, but an error occurred:
+--
+/var/www/apih2hbank/config/bootstrap.js:12
+module.exports.bootstrap = async function (done) {
+                                 ^^^^^^^^
+
+SyntaxError: Unexpected token function
+    at createScript (vm.js:56:10)
+    at Object.runInThisContext (vm.js:97:10)
+    at Module._compile (module.js:542:28)
+    at Object.Module._extensions..js (module.js:579:10)
+    at Module.load (module.js:487:32)
+    at tryModuleLoad (module.js:446:12)
+    at Function.Module._load (module.js:438:3)
+    at Module.require (module.js:497:17)
+    at require (internal/module.js:20:19)
+    at /var/www/apih2hbank/node_modules/include-all/lib/help-include-all-sync.js:293:33
+    at Array.forEach (native)
+    at _recursivelyIncludeAll (/var/www/apih2hbank/node_modules/include-all/lib/help-include-all-sync.js:178:11)
+    at includeAll (/var/www/apih2hbank/node_modules/include-all/lib/help-include-all-sync.js:317:5)
+    at helpBuildDictionary (/var/www/apih2hbank/node_modules/include-all/lib/help-build-dictionary.js:46:13)
+    at Function.module.exports.aggregate (/var/www/apih2hbank/node_modules/include-all/index.js:101:10)
+    at loadOtherConfigFiles (/var/www/apih2hbank/node_modules/sails/lib/hooks/moduleloader/index.js:162:22)
+--
+    at /var/www/apih2hbank/node_modules/include-all/lib/help-include-all-sync.js:298:25
+    at Array.forEach (native)
+    at _recursivelyIncludeAll (/var/www/apih2hbank/node_modules/include-all/lib/help-include-all-sync.js:178:11)
+    at includeAll (/var/www/apih2hbank/node_modules/include-all/lib/help-include-all-sync.js:317:5)
+    at helpBuildDictionary (/var/www/apih2hbank/node_modules/include-all/lib/help-build-dictionary.js:46:13)
+    at Function.module.exports.aggregate (/var/www/apih2hbank/node_modules/include-all/index.js:101:10)
+    at loadOtherConfigFiles (/var/www/apih2hbank/node_modules/sails/lib/hooks/moduleloader/index.js:162:22)
+    at runTask (/var/www/apih2hbank/node_modules/sails/node_modules/async/dist/async.js:1621:13)
+    at /var/www/apih2hbank/node_modules/sails/node_modules/async/dist/async.js:1559:13
+    at processQueue (/var/www/apih2hbank/node_modules/sails/node_modules/async/dist/async.js:1569:13)
+    at Object.auto (/var/www/apih2hbank/node_modules/sails/node_modules/async/dist/async.js:1555:5)
+    at Hook.loadUserConfig (/var/www/apih2hbank/node_modules/sails/lib/hooks/moduleloader/index.js:160:13)
+    at Hook.wrapper [as loadUserConfig] (/var/www/apih2hbank/node_modules/@sailshq/lodash/lib/index.js:3275:19)
+    at Hook.loadModules (/var/www/apih2hbank/node_modules/sails/lib/hooks/userconfig/index.js:45:21)
+    at Hook.wrapper [as loadModules] (/var/www/apih2hbank/node_modules/@sailshq/lodash/lib/index.js:3275:19)
+    at modules (/var/www/apih2hbank/node_modules/sails/lib/hooks/index.js:86:25)
+error: A hook (`userconfig`) failed to load!
+error: Failed to lift app: Error: Attempted to `require('/var/www/apih2hbank/config/bootstrap.js')`, but an error occurred:
+--
+/var/www/apih2hbank/config/bootstrap.js:12
+module.exports.bootstrap = async function (done) {
+                                 ^^^^^^^^
+
+SyntaxError: Unexpected token function
+    at createScript (vm.js:56:10)
+    at Object.runInThisContext (vm.js:97:10)
+    at Module._compile (module.js:542:28)
+    at Object.Module._extensions..js (module.js:579:10)
+    at Module.load (module.js:487:32)
+    at tryModuleLoad (module.js:446:12)
+    at Function.Module._load (module.js:438:3)
+    at Module.require (module.js:497:17)
+    at require (internal/module.js:20:19)
+    at /var/www/apih2hbank/node_modules/include-all/lib/help-include-all-sync.js:293:33
+    at Array.forEach (native)
+    at _recursivelyIncludeAll (/var/www/apih2hbank/node_modules/include-all/lib/help-include-all-sync.js:178:11)
+    at includeAll (/var/www/apih2hbank/node_modules/include-all/lib/help-include-all-sync.js:317:5)
+    at helpBuildDictionary (/var/www/apih2hbank/node_modules/include-all/lib/help-build-dictionary.js:46:13)
+    at Function.module.exports.aggregate (/var/www/apih2hbank/node_modules/include-all/index.js:101:10)
+    at loadOtherConfigFiles (/var/www/apih2hbank/node_modules/sails/lib/hooks/moduleloader/index.js:162:22)
+--
+    at /var/www/apih2hbank/node_modules/include-all/lib/help-include-all-sync.js:298:25
+    at Array.forEach (native)
+    at _recursivelyIncludeAll (/var/www/apih2hbank/node_modules/include-all/lib/help-include-all-sync.js:178:11)
+    at includeAll (/var/www/apih2hbank/node_modules/include-all/lib/help-include-all-sync.js:317:5)
+    at helpBuildDictionary (/var/www/apih2hbank/node_modules/include-all/lib/help-build-dictionary.js:46:13)
+    at Function.module.exports.aggregate (/var/www/apih2hbank/node_modules/include-all/index.js:101:10)
+    at loadOtherConfigFiles (/var/www/apih2hbank/node_modules/sails/lib/hooks/moduleloader/index.js:162:22)
+    at runTask (/var/www/apih2hbank/node_modules/sails/node_modules/async/dist/async.js:1621:13)
+    at /var/www/apih2hbank/node_modules/sails/node_modules/async/dist/async.js:1559:13
+    at processQueue (/var/www/apih2hbank/node_modules/sails/node_modules/async/dist/async.js:1569:13)
+    at Object.auto (/var/www/apih2hbank/node_modules/sails/node_modules/async/dist/async.js:1555:5)
+    at Hook.loadUserConfig (/var/www/apih2hbank/node_modules/sails/lib/hooks/moduleloader/index.js:160:13)
+    at Hook.wrapper [as loadUserConfig] (/var/www/apih2hbank/node_modules/@sailshq/lodash/lib/index.js:3275:19)
+    at Hook.loadModules (/var/www/apih2hbank/node_modules/sails/lib/hooks/userconfig/index.js:45:21)
+    at Hook.wrapper [as loadModules] (/var/www/apih2hbank/node_modules/@sailshq/lodash/lib/index.js:3275:19)
+    at modules (/var/www/apih2hbank/node_modules/sails/lib/hooks/index.js:86:25)
